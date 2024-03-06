@@ -1,0 +1,1201 @@
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Noto Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Base styles for mobile devices */
+/* Set font family, create linear gradient background, fix background image, enable smooth scrolling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-image: linear-gradient(to bottom right, rgba(31, 34, 53, 255), rgba(15, 23, 42));
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+/* Set font size and line height for paragraphs within the body, enable smooth scrolling */
+body p {
+  font-size: 1.1rem;
+  line-height: 1.625;
+  scroll-behavior: smooth;
+}
+
+/* Apply text shadow to create a black border around each letter in the heading, increase font weight */
+body h1 {
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  /* Create a black border around each letter */
+  font-weight: bold;
+  /* Increase font weight */
+}
+
+.landingPage-text-container {
+  margin: 40px 20px 20px 20px;
+}
+
+.landingPage-text-container h1 {
+  font-size: 2.35rem;
+  color: rgb(253, 254, 255);
+}
+
+.landingPage-text-container h2 {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgb(209, 222, 238);
+}
+
+.landingPage-text-container p {
+  /* Line Height */
+  line-height: 1.2;
+  /* Font Size */
+  font-size: 1rem;
+  /* Right Margin */
+  margin-right: 55px;
+  /* Font Family */
+  font-family: 'roboto', sans-serif;
+  /* Text Color */
+  color: rgb(203, 209, 218);
+  /* Top Margin */
+  margin-top: 10px;
+}
+
+
+@media (min-width: 457px) {
+  .landingPage-text-container p {
+    margin-right: 160px;
+  }
+}
+
+.hover_anchor {
+  display: none;
+}
+
+/* section section css */
+/* section section css */
+/* section section css */
+/* section section css */
+/* section section css */
+.section1 {
+  height: 1080px;
+  /* about */
+}
+
+.section2 {
+  height: 800px;
+  /* what i do*/
+}
+
+.section3 {
+  height: 1350px;
+  /* project */
+}
+
+.section4 {
+  height: 1150px;
+  /* tools */
+}
+
+.section5 {
+  height: 700px;
+  /* education */
+}
+
+.sticky-container {
+  position: relative;
+}
+
+  /* It will stick to the top of the page when scrolling occurs*/
+.sticky-element {
+  /* Positioning */
+  /* Set position to sticky for cross-browser compatibility */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  /* Position element at the top of the viewport */
+  /* Box Model */
+  padding: 25px 20px;
+  /* Typography */
+  font-size: 1.10rem;
+  font-weight: 700;
+  color: white;
+  /* Layering */
+  z-index: 2;
+  /* Background */
+  background-image: linear-gradient(to bottom right, rgba(31, 34, 53, 0.8), rgba(15, 23, 42, 0.8));
+  background-attachment: fixed;
+  /* Effects */
+  backdrop-filter: blur(5px);
+  /* Default blur value */
+}
+
+/* about section */
+/* about section */
+/* about section */
+/* about section */
+/* about section */
+/* about section */
+.about_text {
+  text-align: justify;
+  margin: 0 30px 20px 20px;
+  color: rgb(129, 149, 174);
+  font-size: 1.1rem;
+}
+
+.social_container {
+  margin: 20px 20px 50px 20px;
+}
+
+.social_container i {
+  padding: 0;
+}
+
+.social_container i {
+  font-size: 26px;
+  color: rgb(129, 149, 174);
+}
+
+.social_container a:hover i {
+  color: rgb(255, 123, 0);
+  /* Change color on hover */
+}
+
+/* what i do */
+/* what i do */
+/* what i do */
+/* what i do */
+/* what i do */
+/* what i do */
+lord-icon { /*Defining the width and height of the icon*/
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.what_i_do_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my_jobs {
+  /* Margins and Dimensions */
+  margin: 10px 10px;
+  width: 250px;
+  height: 200px;
+  /* Text Alignment */
+  text-align: center;
+  /* Borders */
+  border-top: 2px solid rgb(255, 123, 0);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  /* Box Shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my_jobs p {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.my_jobs h1 {
+  padding: 5px 6px;
+  font-size: 1.1rem;
+  color: rgb(255, 123, 0);
+}
+
+#front-end-bg {
+  background-color: rgb(255, 123, 0);
+}
+
+#front-end-bg h1 {
+  color: #fff !important;
+  text-shadow: none;
+}
+
+#front-end-bg p {
+  color: rgb(255, 255, 255) !important;
+}
+
+/*.........................front end projects........................*/
+/*.........................front end projects........................*/
+/*.........................front end projects........................*/
+/*.........................front end projects........................*/
+.frontend_media {
+  margin: 10px 20px;
+}
+
+.frontend_media img {
+  /* Borders */
+  border: 1px solid rgba(255, 255, 255, 0.623);
+  /* Margins */
+  margin-bottom: 30px;
+  /* Dimensions */
+  width: calc(clamp(10.625rem, 19.531vw + 6.719rem, 13.75rem));
+  height: auto;
+  /* Box Shadow */
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.frontend_text a {
+  text-decoration: none;
+}
+
+.frontend_text h1 {
+  margin: 20px 20px 0 20px;
+  color: #fff;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.frontend_text p {
+  padding: 10px 20px;
+  color: rgb(129, 149, 174);
+}
+/* graphic design  */
+/* graphic design  */
+/* graphic design  */
+/* graphic design  */
+.graphic-design-media {
+  margin: 10px 20px;
+}
+
+.graphic-design-media img {
+  /* Borders: 1px solid white with 62.3% opacity */
+  border: 1px solid rgba(255, 255, 255, 0.623);
+  /* Margins */
+  margin-bottom: 30px;
+  /* Dimensions: Responsive width constrained between 10.625rem and 13.75rem */
+   width: calc(clamp(10.625rem, 19.531vw + 6.719rem, 13.75rem));
+  height: auto;
+  /* Box Shadow: Inner and outer shadow effect */
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.graphic-design-text a {
+  text-decoration: none;
+}
+
+.graphic-design-text h1 {
+  /* Margins: 20px top, 20px right, 0 bottom, 20px left */
+  margin: 20px 20px 0 20px;
+  /* Text Color */
+  color: #fff;
+  /* Font Size */
+  font-size: 1rem;
+   /* Transition: Smooth transform effect with duration of 0.3 seconds */
+  transition: transform 0.3s ease;
+}
+
+.graphic-design-text p {
+  padding: 10px 20px;
+  color: rgb(129, 149, 174);
+}
+
+/* arrow svg style */
+/* Define CSS class for styling */
+.custom-arrow {
+  /* Fill Color */
+  fill: currentColor;
+  /* Display: Rendered as an inline-level block */
+  display: inline-block;
+  /* Dimensions */
+  height: 1em;
+  width: 1em;
+  /* Vertical Alignment: Align vertically in the middle */
+  vertical-align: middle;
+  /* Transition: Smooth transform effect with duration of 0.3 seconds */
+  transition: transform 0.3s ease;
+  /* Left Margin: 0.25em */
+  margin-left: 0.25em;
+  /* Transform: No translation in the Y-axis */
+  transform: translateY(0px);
+}
+
+
+.frontend_text a:hover .custom-arrow {
+  transform: translateY(-5px) translateX(5px);
+  /* Move the arrow more */
+  color: rgb(255, 123, 0);
+}
+
+.frontend_text h1:hover {
+  color: rgb(255, 123, 0);
+}
+
+.graphic-design-text a:hover .custom-arrow {
+  transform: translateY(-5px) translateX(5px);
+  /* Move the arrow more */
+  color: rgb(255, 123, 0);
+}
+
+.graphic-design-text h1:hover {
+  color: rgb(255, 123, 0);
+}
+/* tools */
+/* tools */
+/* tools */
+/* tools */
+/* tools */
+.tags {
+  /* Text Color */
+  color: #fff;
+  /* Margins */
+  margin: 40px 0;
+  /* Font Size */
+  font-size: 1.5rem;
+  /* Text Decoration */
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 123, 0);
+  text-underline-offset: 10px;
+}
+
+.web_tag {
+  padding-left: 40px;
+  text-align: left;
+}
+
+.skills_flex {
+  /* Flex Container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Padding */
+  padding: 20px 20px;
+  /* Gap Between Items */
+  gap: 2rem;
+}
+
+.skills_flex>div { 
+  width: 350px;
+}
+
+.skills_text {
+  /* Positioning */
+  position: relative;
+  /* Background Color */
+  background-color: rgba(13, 31, 57);
+  /* Dimensions */
+  width: 30px;
+  height: 115px;
+  /* Padding */
+  padding: 15px 20px;
+  /* Box Shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Text Color */
+  color: #fff;
+}
+
+.skills_text p:last-of-type {
+  padding: 3px 0;
+}
+
+.skills_text h4 {
+  font-size: 1.1rem;
+  color: rgb(255, 123, 0);
+}
+
+.skills_text p {
+  font-size: .9rem;
+}
+
+.colors {
+  color: rgb(0, 221, 166);
+}
+
+.table_width {
+  width: 100%;
+}
+/* image inside skills */
+/* image inside skills */
+/* image inside skills */
+/* image inside skills */
+.skills_text img {
+  /* Positioning */
+  position: absolute;
+  bottom: 60px;
+  left: clamp(20px, 100%, calc(100% - 60px));
+  /* Dimensions */
+  width: 50px;
+  height: auto;
+}
+
+/* bar width skills */
+.html {
+  width: 100%;
+  /* Background: Linear gradient from right to left */
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 70%,
+      /* Start with orange color at 70% */
+      rgb(255, 155, 62, 0.205) 50%,
+      /* Continue with semi-transparent orange at 50% */
+      rgba(255, 155, 62, 0.205) 100%);
+  /* End with semi-transparent orange at 100% */
+  text-align: right;
+}
+
+.css {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 65%,
+      rgb(255, 155, 62, 0.205) 30%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.javascript {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 32%,
+      rgb(255, 155, 62, 0.205) 32%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.php {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 23%,
+      rgb(255, 155, 62, 0.205) 23%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.mysql {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 31%,
+      rgb(255, 155, 62, 0.205) 31%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.photoshop {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 60%,
+      rgb(255, 155, 62, 0.205) 60%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.illustrator {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 20%,
+      rgb(255, 155, 62, 0.205) 20%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.indesign {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 20%,
+      rgb(255, 155, 62, 0.205) 20%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.canva {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 35%,
+      rgb(255, 155, 62, 0.205) 35%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.aftereffects {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 10%,
+      rgb(255, 155, 62, 0.205) 10%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.word {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 85%,
+      rgb(255, 155, 62, 0.205) 85%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.powerpoint {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 88%,
+      rgb(255, 155, 62, 0.205) 88%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.excel {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 46%,
+      rgb(255, 155, 62, 0.205) 46%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+.publisher {
+  width: 100%;
+  background: linear-gradient(to right,
+      rgb(255, 123, 0) 10%,
+      rgb(255, 155, 62, 0.205) 10%,
+      rgba(255, 155, 62, 0.205) 100%);
+  text-align: right;
+}
+
+/* menus/indicators */
+.skills_menu {
+  /* Margins */
+  margin-top: 20px;
+  /* Flex Container: Display as a flex container */
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 1rem;/* Gap Between Items: 1rem gap between items */
+  text-align: center;
+}
+
+/*for the section name on my skills*/
+.sectionName {
+  /* Cursor */
+  cursor: pointer;
+  /* Dimensions */
+  height: 25px;
+  width: 115px;
+  /* Margins */
+  margin: 0 2px;
+  /* Text Color */
+  color: #fff;
+  /* Display */
+  display: inline-block;
+  /* Transition */
+  transition: background-color 0.6s ease;
+  /* Box Shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Padding */
+  padding: 3px 0;
+  /* Font Size */
+  font-size: 0.7rem;
+}
+
+.active,
+.sectionName:hover {
+  color: rgb(255, 123, 0);
+}
+
+/* longing to lear skilss */
+.softskills {
+  /* Flex Container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Padding */
+  padding: 50px 40px;
+  /* Gap Between Items */
+  gap: 1.5rem;
+}
+
+.softskills>div {
+  width: 200px;
+}
+
+.softskills_text {
+  /* Background Color */
+  background-color: rgba(31, 34, 53, 255);
+  /* Dimensions */
+  width: 350px;
+  height: 50px;
+  /* Box Shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Text Color */
+  color: #fff;
+  /* Flex Container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.softskills div:nth-child(odd) {
+  color: rgb(0, 221, 166);
+}
+
+.softskills div:nth-child(even) {
+  color: #fff;
+}
+/*................education....................*/
+/*................education....................*/
+/*................education....................*/
+/*................education....................*/
+.education_flex {
+  margin: 20px;
+}
+
+.education_media {
+  text-align: center;
+}
+
+.education_media img {
+  /* Margins */
+  margin: 20px 0;
+  /* Dimensions */
+  width: 200px;
+  height: auto;
+  /* Border Radius */
+  border-radius: 50%;
+  /* Box Shadow */
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.education_text h1 {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.education_text li {
+  margin: 5px 0;
+  list-style-type: none;
+  font-size: 1rem;
+  color: rgb(129, 149, 174);
+}
+
+/* last tag */
+.last {
+  margin: 50px 20px;
+  color: rgb(129, 149, 174);
+  ;
+  text-align: justify;
+}
+
+span {
+  color: #fff;
+  transition: 0.5 ease;
+}
+
+.about_text a {
+  text-decoration: none;
+}
+
+span:hover {
+  color: rgb(255, 123, 0);
+}
+
+/* Style for the line */
+#scroll-line {
+/* Positioning: Fixed positioning at the top left corner of the viewport */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Dimensions: Height 2px, initially width 0 */
+  height: 2px;
+  width: 0;
+  /* Layering: Positioned above other elements */
+  z-index: 9999;
+  /* Background Color */
+  background-color: rgb(255, 123, 0);
+  /* Transition */
+  transition: width 0.3s linear;
+}
+
+/* scroll arrow */
+#scroll-arrow {
+  display: none;
+}
+
+/* for span autoTyped text color */
+.span_color{
+  color: rgb(255, 123, 0);
+}
+
+/* credits for icons */
+.credits{
+  margin: 50px 0 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.credits a{
+  text-decoration: none;
+}
+
+.credits h1{
+  font-size: 0.7rem;
+  color: rgb(203, 209, 218);
+}
+
+.credits h1:hover {
+  color: #fff;
+}
+
+.end{
+  text-align: center;
+}
+
+.end p{
+  font-size: 0.7rem;
+}
+
+.end p:last-of-type{
+  margin-top: -5px;
+  font-size: 0.6rem;
+}
+
+
+/* Media query for small tablets or larger smartphones in landscape mode */
+/* Media query for small tablets or larger smartphones in landscape mode */
+/* Media query for small tablets or larger smartphones in landscape mode */
+/* Media query for small tablets or larger smartphones in landscape mode */
+@media (min-width: 576px) {
+  .landingPage-text-container p {
+    width: 50%;
+  }
+
+  .section1 {
+    height: 620px;
+  }
+
+  .section2 {
+    height: 580px;
+  }
+
+  .section3 {
+    height: 1250px;
+  }
+
+  .section4 {
+    height: 1100px;
+  }
+
+  .section5 {
+    height: 650px;
+  }
+
+}
+/* Media query for tablets in portrait mode */
+/* Media query for tablets in portrait mode */
+/* Media query for tablets in portrait mode */
+/* Media query for tablets in portrait mode */
+@media (min-width: 768px) {
+  body {
+    margin: 30px;
+  }
+
+  .landingPage-text-container h1 {
+    font-size: 3rem;
+  }
+
+  .frontend_text h1,
+  .graphic-design-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .skills_flex>div {
+    width: 250px;
+  }
+
+  .section1 {
+    height: 500px;
+  }
+
+  .section2 {
+    height: 600px;
+  }
+
+  .section3 {
+    height: 680px;
+  }
+
+  .section4 {
+    height: 750px;
+  }
+
+  .section5 {
+    height: 500px;
+  }
+
+  lord-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .my_jobs {
+    width: clamp(15rem, 17.857vw + 6.429rem, 17.5rem);
+    height: 220px;
+  }
+
+  .my_jobs p {
+    font-size: clamp(0.8rem, 0.4556rem + 0.7175vw, 0.9rem);
+  }
+
+  .my_jobs h1 {
+    font-size: clamp(1.1rem, 0.7556rem + 0.7175vw, 1.2rem);
+  }
+
+  .frontend,
+  .graphic-design {
+    display: flex;
+    justify-content: center;
+  }
+
+  .frontend_text,
+  .graphic-design-text {
+    order: 2;
+  }
+
+  .frontend_media,
+  .graphic-design-media {
+    order: 1;
+  }
+
+  .frontend_text h1,
+  .graphic-design-text h1 {
+    margin: 0 20px 0 20px;
+  }
+
+  .frontend_text p,
+  .graphic-design-text p {
+    line-height: 1.5;
+    font-size: clamp(0.9rem, 0.2112rem + 1.435vw, 1.1rem);
+  }
+
+  .frontend_media img,
+  .graphic-design-media img {
+    width: clamp(10rem, 44.843vw - 11.525rem, 16.25rem);
+    height: auto;
+  }
+
+  .education_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .education_text {
+    order: 2;
+  }
+
+  .education_text {
+    order: 1;
+  }
+
+  #scroll-arrow {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 5%;
+    /* Adjusted position to bottom */
+    right: 2%;
+    /* Adjusted position to right */
+    animation: arrowMoveUpDown 1s infinite alternate;
+    display: block;
+    /* Initially display arrow */
+  }
+
+  @keyframes arrowMoveUpDown {
+    from {
+      bottom: 2%;
+      /* Adjusted initial position */
+    }
+
+    to {
+      bottom: 8%;
+      /* Adjusted final position */
+    }
+  }
+}
+/* Media query for small desktop screens */
+/* Media query for small desktop screens */
+/* Media query for small desktop screens */
+/* Media query for small desktop screens */
+/* Media query for small desktop screens */
+@media (min-width: 992px) {
+
+  body p {
+    font-size: 1rem;
+  }
+
+  .fixed-side {
+    width: 400px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 40px;
+  }
+
+  .scrollable-side {
+    margin-left: 400px;
+    /* Adjust according to the width of the fixed side */
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    height: auto;
+  }
+
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6 {
+    scroll-margin-top: 60px;
+    /* Space on top */
+  }
+
+  .sticky-element {
+    display: none;
+  }
+
+  /* landing page main */
+  .landingPage-text-container {
+    margin: 90px 20px 20px 20px;
+  }
+
+  .landingPage-text-container p {
+    width: 100%;
+  }
+
+  .anchor_flex ul {
+    display: flex;
+    gap: 1rem;
+    padding-left: 20px;
+    margin-top: 170px;
+  }
+
+  .hover_anchor {
+    display: block;
+  }
+
+  .hover_anchor a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(209, 222, 238);
+  }
+
+  .hover_anchor li {
+    list-style: none;
+    color: #fff;
+  }
+
+
+  .hover_anchor ul li {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    /* Smooth transition for transform property */
+  }
+
+  .hover_anchor ul li a {
+    color: rgb(209, 222, 238);
+    text-decoration: none;
+    opacity: 0.7;
+    /* Initial opacity */
+  }
+
+  /* CSS for hover effect */
+  .hover_anchor ul li:hover {
+    transform: translateY(-10px);
+    /* Move to up */
+  }
+
+  .hover_anchor ul li:hover a {
+    color: rgb(255, 123, 0) !important;
+    /* Change color */
+    opacity: 1;
+    /* Lighter opacity */
+  }
+
+  /* about */
+  .about_text {
+    margin: 50px 30px 90px 20px;
+  }
+
+  /* what i do */
+
+  lord-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  .my_jobs {
+    width: clamp(8.125rem, 44.843vw - 13.4rem, 14.375rem);
+  }
+
+  .what_i_do_flex {
+    margin-bottom: 90px;
+  }
+
+  /* project */
+  .frontend_media {
+    margin: 10px 20px 10px 10px;
+  }
+
+  .frontend_media img {
+    margin: 0;
+  }
+
+  .frontend_media img,
+  .graphic-design-media img {
+    width: clamp(8.75rem, 28.846vw - 9.135rem, 12.5rem);
+    height: auto;
+  }
+
+  .frontend_text {
+    margin-right: 10px;
+  }
+
+  .frontend_text h1,
+  .graphic-design-text h1 {
+    font-size: clamp(1rem, 0.0415rem + 1.5459vw, 1.2rem);
+    ;
+    margin: 0;
+  }
+
+  .frontend_text p,
+  .graphic-design-text p {
+    line-height: 1.25;
+    font-size: clamp(0.9rem, 0.4208rem + 0.7729vw, 1rem);
+    padding: 10px 0;
+  }
+
+  .bg_hover1,
+  .bg_hover2,
+  .bg_hover3,
+  .bg_hover4 {
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  }
+
+  .bg_hover1:hover,
+  .bg_hover2:hover,
+  .bg_hover3:hover,
+  .bg_hover4:hover {
+    background-color: #1e325280;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* skills */
+  .skills_flex>div {
+    width: clamp(13.75rem, 38.462vw - 10.096rem, 18.75rem);
+  }
+
+  .skills_text img {
+    width: clamp(2.5rem, 4.808vw - 0.481rem, 3.125rem);
+    height: auto;
+  }
+
+  .skills_menu {
+    margin-bottom: 60px;
+  }
+
+  .credits h1{
+    font-size: 0.9rem;
+  }
+  
+  .end p{
+    font-size: 0.9rem;
+  }
+
+  .end p:last-of-type{
+    font-size: 0.8rem;
+  }
+
+}
+/* Media query for medium-sized desktop screens */
+/* Media query for medium-sized desktop screens */
+/* Media query for medium-sized desktop screens */
+/* Media query for medium-sized desktop screens */
+/* Media query for medium-sized desktop screens */
+@media (min-width: 1200px) {
+
+  body {
+    margin: 40px;
+  }
+
+  body p {
+    line-height: 1.625;
+    font-size: 1.1rem;
+  }
+
+  .fixed-side {
+    width: 600px;
+    padding-left: 120px;
+  }
+
+  .landingPage-text-container p {
+    width: 75%;
+  }
+
+  .scrollable-side {
+    margin-left: 580px;
+    /* Adjust according to the width of the fixed side */
+  }
+
+  .my_jobs {
+    width: 200px;
+    height: 190px;
+  }
+
+  .my_jobs h1 {
+    padding: 5px 6px;
+    font-size: 1rem;
+  }
+
+  .my_jobs p {
+    padding: 5px 10px;
+    line-height: 1.1;
+  }
+
+  .skills_flex>div {
+    width: clamp(13.625rem, 10.5vw + 6.25rem, 18.75rem);
+  }
+
+
+}
+/* Media query for large desktop screens */
+/* Media query for large desktop screens */
+/* Media query for large desktop screens */
+/* Media query for large desktop screens */
+@media (min-width: 1300px) {
+
+  .anchor_flex ul {
+    margin-top: 190px;
+  }
+}

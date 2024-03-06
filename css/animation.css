@@ -1,0 +1,197 @@
+/* animation */
+/* animation */
+/* animation */
+/* animation */
+/* animation */
+
+
+/* fly in and fade in from left*/
+/* Define the initial state of the element */
+.fly-in-fade-in-left {
+  opacity: 0;
+  /* Start with opacity 0 */
+  transform: translateX(-100px);
+  /* Move element to the right initially */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* Transition for fade-in and fly-in */
+}
+
+/* Define the final state of the animation */
+.fly-in-fade-in-left.fly-in {
+  opacity: 1;
+  /* Make element fully visible */
+  transform: translateX(0);
+  /* Move element to its original position */
+}
+
+/* Add a delay to the animation to start after a certain time */
+.fly-in-fade-in-left.delayed {
+  animation: fly-in-fade-in-left-animation 0.5s ease forwards;
+  animation-delay: 1s;
+  /* Delay the animation by 1 second */
+}
+
+/* Keyframe animation to fly-in and fade-in */
+@keyframes fly-in-fade-in-left-animation {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+    /* Move element to the right initially */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    /* Move element to its original position */
+  }
+}
+
+
+
+/* fly in and fade in from right*/
+/* Define the initial state of the element */
+.fly-in-fade-in-right {
+  opacity: 0;
+  /* Start with opacity 0 */
+  transform: translateX(-100px);
+  /* Move element to the right initially */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* Transition for fade-in and fly-in */
+}
+
+/* Define the final state of the animation */
+.fly-in-fade-in-right.fly-in {
+  opacity: 1;
+  /* Make element fully visible */
+  transform: translateX(0);
+  /* Move element to its original position */
+}
+
+/* Add a delay to the animation to start after a certain time */
+.fly-in-fade-in-right.delayed {
+  animation: fly-in-fade-in-right-animation 0.5s ease forwards;
+  animation-delay: 1s;
+  /* Delay the animation by 1 second */
+}
+
+/* Keyframe animation to fly-in and fade-in */
+@keyframes fly-in-fade-in-right-animation {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+    /* Move element to the right initially */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    /* Move element to its original position */
+  }
+}
+
+
+
+/* fade in only */
+/* Define the initial state of the element */
+.fade-in {
+  opacity: 0;
+  /* Start with opacity 0 */
+  transition: opacity 1s ease;
+  /* Transition for fade-in */
+  animation: fadeInAnimation 1s ease forwards;
+  /* Trigger animation */
+  animation-delay: 1s;
+  /* Delay the animation by 1 second */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    /* Start with opacity 0 */
+  }
+
+  to {
+    opacity: 1;
+    /* End with opacity 1 */
+  }
+}
+
+
+
+.social_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.social_container a {
+  display: inline-block;
+  /* Ensure links behave as blocks */
+  margin-right: 10px;
+  /* Adjust spacing between icons */
+}
+
+.social_container a i {
+  opacity: 0;
+  /* Initially hidden */
+  animation: fadeIn 1s forwards;
+}
+
+.social_container a:nth-child(1) i {
+  animation-delay: 1s;
+  /* Delay for the first icon */
+}
+
+.social_container a:nth-child(2) i {
+  animation-delay: 1.2s;
+  /* Delay for the second icon */
+}
+
+.social_container a:nth-child(3) i {
+  animation-delay: 1.4s;
+  /* Delay for the third icon */
+}
+
+.social_container a:nth-child(4) i {
+  animation-delay: 1.6s;
+  /* Delay for the fourth icon */
+}
+
+.social_container a:nth-child(5) i {
+  animation-delay: 1.8s;
+  /* Delay for the fifth icon */
+}
+
+.social_container a:nth-child(6) i {
+  animation-delay: 2s;
+  /* Delay for the sixth icon */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    /* Start with opacity 0 */
+  }
+
+  to {
+    opacity: 1;
+    /* End with opacity 1 */
+  }
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
