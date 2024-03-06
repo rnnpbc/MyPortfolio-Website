@@ -92,7 +92,7 @@ body h1 {
 /* section section css */
 /* section section css */
 .section1 {
-  height: 1080px;
+  height: 1000px;
   /* about */
 }
 
@@ -768,10 +768,144 @@ span:hover {
 }
 
 
+
+@media (min-width: 340px) {
+  .section1 {
+    height: 980px;
+    /* about */
+  }
+  
+  .section2 {
+    height: 800px;
+    /* what i do*/
+  }
+  
+  .section3 {
+    height: 1500px;
+    /* project */
+  }
+  
+  .section4 {
+    height: 1150px;
+    /* tools */
+  }
+  
+  .section5 {
+    height: 700px;
+    /* education */
+  }
+}
+
+@media (min-width: 350px) {
+  .section1 {
+    height: 950px;
+    /* about */
+  }
+}
+
+@media (min-width: 360px) {
+  .section1 {
+    height: 900px;
+    /* about */
+  }
+
+  .section3 {
+    height: 1450px;
+    /* project */
+  }
+  
+  .section4 {
+    height: 1100px;
+    /* tools */
+  }
+}
+
+@media (min-width: 370px) {
+  .section1 {
+    height: 850px;
+    /* about */
+  } 
+}
+
+@media (min-width: 420px) {
+  .section1 {
+    height: 750px;
+    /* about */
+  }
+
+  .section2 {
+    height: 750px;
+    /* what i do */
+  }
+
+  .section4 {
+    height: 1050px;
+    /* tools */
+  }
+}
+
+@media (min-width: 450px) {
+  .section1 {
+    height: 700px;
+    /* about */
+  }
+
+  .section2 {
+    height: 750px;
+    /* what i do */
+  }
+  .section3 {
+    height: 1400px;
+    /* projects */
+  }
+
+  .section4 {
+    height: 1050px;
+    /* tools */
+  }
+}
+
+@media (min-width: 500px) {
+  .section1 {
+    height: 700px;
+    /* about */
+  }
+
+  .section2 {
+    height: 750px;
+    /* what i do */
+  }
+
+  .section4 {
+    height: 1050px;
+    /* tools */
+  }
+}
+
 /* Media query for small tablets or larger smartphones in landscape mode */
 /* Media query for small tablets or larger smartphones in landscape mode */
 /* Media query for small tablets or larger smartphones in landscape mode */
 /* Media query for small tablets or larger smartphones in landscape mode */
+@media (min-width: 530px) {
+  .section1 {
+    height: 620px;
+    /* about */
+  }
+
+  .section2 {
+    height: 750px;
+    /* what i do */
+  }
+}
+
+@media (min-width: 540px) {
+
+  .section2 {
+    height: 550px;
+    /* what i do */
+  }
+}
+
 @media (min-width: 576px) {
   .landingPage-text-container p {
     width: 50%;
@@ -786,7 +920,7 @@ span:hover {
   }
 
   .section3 {
-    height: 1250px;
+    height: 1320px;
   }
 
   .section4 {
@@ -796,12 +930,35 @@ span:hover {
   .section5 {
     height: 650px;
   }
-
 }
+
 /* Media query for tablets in portrait mode */
 /* Media query for tablets in portrait mode */
 /* Media query for tablets in portrait mode */
 /* Media query for tablets in portrait mode */
+@media (min-width: 700px) and (max-width: 767px) {
+
+  .section1 {
+    height: 500px;
+  }
+
+  .section2 {
+    height: 550px;
+  }
+
+  .section3 {
+    height: 1320px;
+  }
+
+  .section4 {
+    height: 1000px;
+  }
+
+  .section5 {
+    height: 650px;
+  }
+}
+
 @media (min-width: 768px) {
   body {
     margin: 30px;
@@ -931,6 +1088,50 @@ span:hover {
     }
   }
 }
+
+@media (min-width: 780px){
+  .section1 {
+    height: 500px;
+  }
+
+  .section2 {
+    height: 600px;
+  }
+
+  .section3 {
+    height: 680px;
+  }
+
+  .section4 {
+    height: 750px;
+  }
+
+  .section5 {
+    height: 500px;
+  }
+}
+
+@media (min-width: 790px) and (max-width: 829px) {
+  .section3 {
+    height: 700px;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 899px) {
+  .section3 {
+    height: 770px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 991px){
+  .section3 {
+    height: 850px;
+  }
+}
+
+
+
+
 /* Media query for small desktop screens */
 /* Media query for small desktop screens */
 /* Media query for small desktop screens */
