@@ -1400,3 +1400,9 @@ span:hover {
     margin-top: 190px;
   }
 }
+@media (min-width: 1600px) {
+
+  .scrollable-side{
+    margin-top: 700px;
+  }
+}
