@@ -1403,6 +1403,6 @@ span:hover {
 @media (min-width: 1600px) {
 
   .scrollable-side{
-    margin-top: 700px;
+    margin-left: 700px;
   }
 }
